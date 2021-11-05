@@ -1,0 +1,103 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinza: #aaa;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*elementos base*/
+body {
+  background-color: darkgrey;
+  font-family: 'Georgia', Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 20px;
+  color: rgb(26, 26, 102);
+  font-family:'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+header nav a:hover {
+  color: #141414;
+}
+/*principal Main*/
+
+.container-Principal {
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)100%), url('/img/irmaosAobra.jpg');
+  height: 400px;
+  background-size: cover;
+}
+
+.container-tituloPrincipal {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.container-tituloPrincipal .descricao{
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+}
+
+.tituloPrincipal {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  border-radius: 10px;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.link-botao {
+  text-decoration: none;
+  color: inherit;
+}
+
+.botao:hover {
+  background: white;
+  color: black;
+}
+
+.botao i{
+  margin-right: 5px;
+}
+
+.box-lista {
+  height: 30vw;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  
+}
